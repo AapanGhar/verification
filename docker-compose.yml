@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  server:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 5000:4000
+   # depends_on: mongo_service  
+    depends_on:
+      - redis_service
+      - mongo_service
+
+  mongo_service:
+    image: mongo
+    restart: alwyas
+      
+  redis_service:
+    image: redis 
+    restart: alwyas    
+
