@@ -1,6 +1,3 @@
-
-
-
 const createDbObject = (data) => {
     return {
         ...data,

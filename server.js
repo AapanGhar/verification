@@ -21,7 +21,6 @@ export let mysqlConnection;
 
 const DBConnection = async () => {
     try {
-
         __logger.info({ DBConnection: ' Entered into DBConnection' })
         // let mongoclient = await CONNECTION.getMongoConnection(MONGO_CONNECTION_URI)
         // mongoConnection = new MongoClass(mongoclient)
@@ -40,11 +39,6 @@ const DBConnection = async () => {
 
     }
 }
-
-
-
-
-
 
 const startServer = async () => {
     try {

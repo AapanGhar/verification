@@ -43,4 +43,11 @@ export SALT_ROUND=10
 export JWT_EXPIRE=3600
 export JWT_SECRET_KEY='mysecret12'
 
+# Email
+
+export EMAIL_USER_NAME=gopal
+export EMAIL_PASSWORD=gfdsgjdcjgdjchdjch
+export EMAIL_ID=gkothari96@gmail.com
+export EMAIL_SUBJECT='djfgjjgj'
+
 npm run dev

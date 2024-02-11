@@ -1,5 +1,5 @@
-const nodemailer = require('nodemailer');
-const { SERVER_CONFIG } = require('../config')
+import nodemailer from 'nodemailer'
+import { SERVER_CONFIG } from '../config/SERVER_CONFIG.js'
 
 // Create a transporter using SMTP
 const transporter = nodemailer.createTransport({
